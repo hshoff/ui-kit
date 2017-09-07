@@ -7,14 +7,17 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "format":
-      "prettier --trailing-comma es5 --single-quote --write 'src/**/*.js'"
+    "format": "prettier --trailing-comma es5 --single-quote --write 'src/**/*.js'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hshoff/ui-kit.git"
   },
-  "keywords": ["ui-kit", "docs", "bootstrap"],
+  "keywords": [
+    "ui-kit",
+    "docs",
+    "bootstrap"
+  ],
   "author": "@hshoff",
   "license": "MIT",
   "bugs": {

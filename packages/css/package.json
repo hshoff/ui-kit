@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "ui kit bootstrap + theme css",
   "main": "./build/styles.css",
-  "files": ["build", "fonts"],
+  "files": [
+    "build",
+    "fonts"
+  ],
   "scripts": {
     "prepublish": "npm run build",
     "build": "webpack",
@@ -13,7 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/hshoff/ui-kit.git"
   },
-  "keywords": ["ui-kit", "css"],
+  "keywords": [
+    "ui-kit",
+    "css"
+  ],
   "author": "@hshoff",
   "license": "MIT",
   "bugs": {
