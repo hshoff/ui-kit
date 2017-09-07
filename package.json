@@ -1,0 +1,24 @@
+{
+  "name": "@ui-kit/lib",
+  "version": "0.0.1",
+  "description": "ui-kit library of packages",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hshoff/ui-kit.git"
+  },
+  "keywords": [
+    "ui-kit",
+    "react",
+    "bootstrap"
+  ],
+  "author": "@hshoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hshoff/ui-kit/issues"
+  },
+  "homepage": "https://github.com/hshoff/ui-kit#readme"
+}
