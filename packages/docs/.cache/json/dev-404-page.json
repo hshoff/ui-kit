@@ -1,0 +1,35 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 5,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/404/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/components/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/getting-started/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404.html"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

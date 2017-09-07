@@ -1,0 +1,44 @@
+[
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "components.json",
+        "path": "/components/"
+    },
+    {
+        "componentChunkName": "component---src-pages-getting-started-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "getting-started.json",
+        "path": "/getting-started/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    }
+]

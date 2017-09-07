@@ -1,0 +1,38 @@
+{
+  "name": "@ui-kit/docs",
+  "version": "0.0.1",
+  "description": "ui kit docs site",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "format":
+      "prettier --trailing-comma es5 --single-quote --write 'src/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hshoff/ui-kit.git"
+  },
+  "keywords": ["ui-kit", "docs", "bootstrap"],
+  "author": "@hshoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hshoff/ui-kit/issues"
+  },
+  "homepage": "https://github.com/hshoff/ui-kit#readme",
+  "dependencies": {
+    "gatsby": "1.9.17",
+    "gatsby-link": "1.6.15",
+    "gatsby-plugin-react-helmet": "1.0.5",
+    "react-bootstrap": "0.31.2",
+    "@ui-kit/css": "0.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "1.0.0",
+    "prettier": "1.6.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

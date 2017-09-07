@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/hshoff/ui-kit/issues"
   },
-  "homepage": "https://github.com/hshoff/ui-kit#readme"
+  "homepage": "https://github.com/hshoff/ui-kit#readme",
+  "devDependencies": {
+    "lerna": "2.0.0-beta.38"
+  }
 }
