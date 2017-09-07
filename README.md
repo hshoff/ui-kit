@@ -1,1 +1,20 @@
-# ui-kit
+# UI Kit
+
+Built on top of `bootstrap` and `react-bootstrap`.
+
+### installation
+```bash
+npm install --save react react-dom react-bootstrap @ui-kit/css
+```
+
+### theme usage
+```js
+// somefile.js
+import "@ui-kit/css";
+```
+
+### component usage
+refer to react-bootstrap docs for component usage https://react-bootstrap.github.io/components.html
+
+### theme docs
+https://hshoff.github.io/ui-kit/components/
