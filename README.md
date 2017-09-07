@@ -2,6 +2,8 @@
 
 Built on top of `bootstrap` and `react-bootstrap`.
 
+Design by [@elibrumbaugh](https://twitter.com/elibrumbaugh)
+
 ### installation
 ```bash
 npm install --save react react-dom react-bootstrap @ui-kit/css
