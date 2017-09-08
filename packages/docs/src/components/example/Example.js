@@ -1,5 +1,6 @@
 import React from 'react';
 import cx from 'classnames';
+import Code from '@ui-kit/code';
 import { Glyphicon, Panel, Collapse } from 'react-bootstrap';
 
 import './Example.css';
@@ -47,7 +48,7 @@ export default class Example extends React.Component {
         {children}
         <Collapse in={this.state.open}>
           <div className="code-container">
-            <pre>{code}</pre>
+            <Code>{code}</Code>
           </div>
         </Collapse>
       </Panel>

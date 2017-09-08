@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/hshoff/ui-kit#readme",
   "dependencies": {
-    "@ui-kit/css": "0.0.3",
     "@ui-kit/code": "0.0.4",
+    "@ui-kit/css": "0.0.3",
     "gatsby": "1.9.17",
     "gatsby-link": "1.6.15",
     "gatsby-plugin-react-helmet": "1.0.5",
