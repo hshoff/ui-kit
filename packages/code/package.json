@@ -1,9 +1,11 @@
 {
   "name": "@ui-kit/code",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "UI Kit code component with syntax highlighting",
   "main": "build/bundle.js",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "scripts": {
     "build": "make build SRC=./src",
     "prepublish": "make build SRC=./src",
@@ -13,7 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/hshoff/ui-kit.git"
   },
-  "keywords": ["ui-kit", "react"],
+  "keywords": [
+    "ui-kit",
+    "react"
+  ],
   "author": "@hshoff",
   "license": "MIT",
   "bugs": {
