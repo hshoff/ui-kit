@@ -1,6 +1,6 @@
 {
   "name": "@ui-kit/docs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "ui kit docs site",
   "main": "index.js",
   "scripts": {
