@@ -2,3 +2,7 @@
   padding-top: 55px;
   padding-bottom: 150px;
 }
+
+.Example .panel-footer {
+  padding: 1px 12px;
+}

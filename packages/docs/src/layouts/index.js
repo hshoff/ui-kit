@@ -15,19 +15,15 @@ import './index.css';
 
 const routes = {
   '/': 1,
-  '/getting-started': 2,
-  '/components': 3,
+  '/getting-started/': 2,
+  '/components/': 3,
 };
 
 class Header extends React.Component {
   constructor(props) {
     super(props);
-    let currentKey = 1;
-    if (window && window.location) {
-      currentKey = routes[window.location.pathname];
-    }
     this.state = {
-      activeKey: currentKey,
+      activeKey: routes[props.pathname.replace('/ui-kit', '')],
     };
     this.handleNav = this.handleNav.bind(this);
   }
@@ -56,13 +52,13 @@ class Header extends React.Component {
           </NavItem>
           <NavItem
             eventKey={2}
-            onSelect={key => this.handleNav('/getting-started', key)}
+            onSelect={key => this.handleNav('/getting-started/', key)}
           >
             Getting started
           </NavItem>
           <NavItem
             eventKey={3}
-            onSelect={key => this.handleNav('/components', key)}
+            onSelect={key => this.handleNav('/components/', key)}
           >
             Components
           </NavItem>
@@ -72,16 +68,20 @@ class Header extends React.Component {
   }
 }
 
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet
-      title="FUI - theme"
-      meta={[{ name: 'description', content: 'FUI bootstrap theme' }]}
-    />
-    <Header />
-    <div className="docs-container">{children()}</div>
-  </div>
-);
+const TemplateWrapper = ({ children, location }) => {
+  return (
+    <div>
+      <Helmet
+        title="UI Kit - theme"
+        meta={[
+          { name: 'description', content: 'UI Kit bootstrap theme' },
+        ]}
+      />
+      <Header pathname={location.pathname} />
+      <div className="docs-container">{children()}</div>
+    </div>
+  );
+};
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
