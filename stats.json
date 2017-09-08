@@ -9,8 +9,8 @@
       "component---src-pages-index-js-efcf566e562070eed614.js.map"
     ],
     "component---src-pages-components-js": [
-      "component---src-pages-components-js-01291f9400f700502214.js",
-      "component---src-pages-components-js-01291f9400f700502214.js.map"
+      "component---src-pages-components-js-bffcb6d018b35840daac.js",
+      "component---src-pages-components-js-bffcb6d018b35840daac.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -38,7 +38,9 @@
     ],
     "commons": [
       "commons-441f76e29394d8430145.js",
-      "commons-441f76e29394d8430145.js.map"
+      "build-js-styles.css",
+      "commons-441f76e29394d8430145.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
