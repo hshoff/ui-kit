@@ -29,6 +29,7 @@ import Badges from '../components/sections/Badges';
 import Jumbotron from '../components/sections/Jumbotron';
 import Panels from '../components/sections/Panels';
 import Tabs from '../components/sections/Tabs';
+import Inputs from '../components/sections/Inputs';
 
 function DemoRow({ children }) {
   return (
@@ -50,6 +51,12 @@ const IndexPage = () => (
         </Col>
         <Col md={6}>
           <ButtonGroups />
+        </Col>
+      </Row>
+
+      <Row>
+        <Col md={6}>
+          <Inputs />
         </Col>
       </Row>
 
