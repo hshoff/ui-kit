@@ -1,6 +1,6 @@
 {
   "name": "@ui-kit/docs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ui kit docs site",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/hshoff/ui-kit#readme",
   "dependencies": {
-    "@ui-kit/code": "0.0.4",
+    "@ui-kit/code": "0.0.5",
     "@ui-kit/css": "0.0.3",
     "gatsby": "1.9.17",
     "gatsby-link": "1.6.15",

@@ -1,6 +1,6 @@
 {
   "name": "@ui-kit/code",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "UI Kit code component with syntax highlighting",
   "main": "build/index.js",
   "files": [
