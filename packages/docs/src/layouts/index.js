@@ -43,26 +43,29 @@ class Header extends React.Component {
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
-        <Nav activeKey={this.state.activeKey}>
-          <NavItem
-            eventKey={1}
-            onSelect={key => this.handleNav('/', key)}
-          >
-            Introduction
-          </NavItem>
-          <NavItem
-            eventKey={2}
-            onSelect={key => this.handleNav('/getting-started/', key)}
-          >
-            Getting started
-          </NavItem>
-          <NavItem
-            eventKey={3}
-            onSelect={key => this.handleNav('/components/', key)}
-          >
-            Components
-          </NavItem>
-        </Nav>
+        <Navbar.Collapse>
+          <Nav activeKey={this.state.activeKey}>
+            <NavItem
+              eventKey={1}
+              onSelect={key => this.handleNav('/', key)}
+            >
+              Introduction
+            </NavItem>
+            <NavItem
+              eventKey={2}
+              onSelect={key =>
+                this.handleNav('/getting-started/', key)}
+            >
+              Getting started
+            </NavItem>
+            <NavItem
+              eventKey={3}
+              onSelect={key => this.handleNav('/components/', key)}
+            >
+              Components
+            </NavItem>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
     );
   }

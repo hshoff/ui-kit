@@ -200,7 +200,7 @@ export default function ExTabs() {
         <Example title="custom layout" code={Samples.Custom}>
           <Tab.Container defaultActiveKey="first">
             <Row className="clearfix">
-              <Col sm={4}>
+              <Col sm={6}>
                 <Nav bsStyle="pills" stacked>
                   <NavItem eventKey="first">
                     Home<Badge className="pull-right">42</Badge>
@@ -211,7 +211,7 @@ export default function ExTabs() {
                   </NavItem>
                 </Nav>
               </Col>
-              <Col sm={8}>
+              <Col sm={6}>
                 <Tab.Content animation={false}>
                   <Tab.Pane eventKey="first">Home content</Tab.Pane>
                   <Tab.Pane eventKey="second">
