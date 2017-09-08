@@ -1,6 +1,6 @@
 {
   "name": "@ui-kit/code",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "UI Kit code component with syntax highlighting",
   "main": "build/bundle.js",
   "files": [
@@ -35,5 +35,8 @@
   "dependencies": {
     "hastscript": "^3.1.0",
     "refractor": "^1.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
