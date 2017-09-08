@@ -1,0 +1,34 @@
+{
+  "name": "@ui-kit/code",
+  "version": "0.0.1",
+  "description": "UI Kit code component with syntax highlighting",
+  "main": "build/bundle.js",
+  "files": ["build"],
+  "scripts": {
+    "build": "make build SRC=./src",
+    "prepublish": "make build SRC=./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hshoff/ui-kit.git"
+  },
+  "keywords": ["ui-kit", "react"],
+  "author": "@hshoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hshoff/ui-kit/issues"
+  },
+  "homepage": "https://github.com/hshoff/ui-kit#readme",
+  "peerDependencies": {
+    "react": "^15.0.0 || 15.x"
+  },
+  "devDependencies": {
+    "react": "^15.0.0 || 15.x",
+    "react-fatigue-dev": "github:tj/react-fatigue-dev"
+  },
+  "dependencies": {
+    "hastscript": "^3.1.0",
+    "refractor": "^1.0.1"
+  }
+}
