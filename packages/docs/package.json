@@ -1,6 +1,6 @@
 {
   "name": "@ui-kit/docs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ui kit docs site",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "gatsby-link": "1.6.15",
     "gatsby-plugin-react-helmet": "1.0.5",
     "react-bootstrap": "0.31.2",
-    "@ui-kit/css": "0.0.1"
+    "@ui-kit/css": "0.0.2"
   },
   "devDependencies": {
     "gh-pages": "1.0.0",
