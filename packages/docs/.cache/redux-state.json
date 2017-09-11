@@ -7,7 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1504889273809,
+      "updatedAt": 1505150086909,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0746cb337bc336fdd8f08dde5b4d9e0c",
+        "contentDigest": "3d7ac8dc62092ca8175852b563869d26",
         "owner": "internal-data-bridge"
       }
     },
@@ -270,7 +270,7 @@
       "packageJson": {
         "name": "@ui-kit/docs",
         "description": "ui kit docs site",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "main": "index.js",
         "keywords": [
           "ui-kit",
@@ -286,7 +286,7 @@
           },
           {
             "name": "@ui-kit/css",
-            "version": "0.0.3"
+            "version": "0.0.7"
           },
           {
             "name": "gatsby",
@@ -335,12 +335,12 @@
       "host": "localhost",
       "pathPrefix": "/ui-kit",
       "polyfill": true,
-      "buildTime": "2017-09-08T16:47:50.720Z",
+      "buildTime": "2017-09-11T17:14:43.285Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "17d5c2e845175387bbf7b3544ac8fd47",
+        "contentDigest": "b228ebf5f4bc804823d9ac7fb526327c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -352,7 +352,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1504889273821,
+      "updatedAt": 1505150086919,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -362,7 +362,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "35738a577dc90d2d1e346ccd89fe0c77",
+        "contentDigest": "2e1a02c81f4f25c186705ce3a6b17fd1",
         "owner": "internal-data-bridge"
       }
     },
@@ -373,7 +373,7 @@
       "layout": "index",
       "jsonName": "components.json",
       "internalComponentName": "ComponentComponents",
-      "updatedAt": 1504889273822,
+      "updatedAt": 1505150086920,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -383,7 +383,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "793c7bd116f14c9f5f357dd8348720ad",
+        "contentDigest": "571d88382bd913e5ca5c5f105104b068",
         "owner": "internal-data-bridge"
       }
     },
@@ -394,7 +394,7 @@
       "layout": "index",
       "jsonName": "getting-started.json",
       "internalComponentName": "ComponentGettingStarted",
-      "updatedAt": 1504889273822,
+      "updatedAt": 1505150086921,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -404,7 +404,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f639aa0bc0d34aae481a861762a630af",
+        "contentDigest": "f04ccf7293197865bbcf9d14ba4e7a7c",
         "owner": "internal-data-bridge"
       }
     },
@@ -415,7 +415,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1504889273823,
+      "updatedAt": 1505150086921,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -425,7 +425,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3ec3d24010066cece8d2c4229a8938c4",
+        "contentDigest": "f3ae563e2d9aa587feb507b714b3308d",
         "owner": "internal-data-bridge"
       }
     },
@@ -436,7 +436,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1504889273829,
+      "updatedAt": 1505150086927,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -446,14 +446,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9e08de56b19955d0b63a01a5c40df564",
+        "contentDigest": "f8804eb07a7727742819899edf4aee27",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "55b63fea61d5dce79a09221801ad4e9a"
+    "PLUGINS_HASH": "2afc205c1dfa4fc832916bf7db432800"
   },
   "componentDataDependencies": {
     "nodes": {},

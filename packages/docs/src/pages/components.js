@@ -30,6 +30,7 @@ import Jumbotron from '../components/sections/Jumbotron';
 import Panels from '../components/sections/Panels';
 import Tabs from '../components/sections/Tabs';
 import Inputs from '../components/sections/Inputs';
+import Typography from '../components/sections/Typography';
 
 function DemoRow({ children }) {
   return (
@@ -43,6 +44,7 @@ const IndexPage = () => (
   <Grid fluid>
     <Col md={2}> </Col>
     <Col md={9}>
+      <Typography />
       <Navbars />
 
       <Row>

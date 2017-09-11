@@ -13,6 +13,9 @@ const Samples = {
   <Button bsStyle="default" bsSize="large">
     Default
   </Button>
+  <Button bsStyle="info" bsSize="large">
+    Info
+  </Button>
   <Button bsStyle="primary" bsSize="large">
     Primary
   </Button>
@@ -22,12 +25,16 @@ const Samples = {
 </ButtonToolbar>`,
   Regular: `<ButtonToolbar>
   <Button bsStyle="default">Default</Button>
+  <Button bsStyle="info">Info</Button>
   <Button bsStyle="primary">Primary</Button>
   <Button bsStyle="link">Link</Button>
 </ButtonToolbar>`,
   Disabled: `<ButtonToolbar>
   <Button bsStyle="default" disabled>
     Default
+  </Button>
+  <Button bsStyle="info" disabled>
+    Info
   </Button>
   <Button bsStyle="primary" disabled>
     Primary
@@ -40,6 +47,9 @@ const Samples = {
   <Button bsStyle="default" bsSize="small">
     Default
   </Button>
+  <Button bsStyle="info" bsSize="small">
+    Info
+  </Button>
   <Button bsStyle="primary" bsSize="small">
     Primary
   </Button>
@@ -50,6 +60,9 @@ const Samples = {
   Xsmall: `<ButtonToolbar>
   <Button bsStyle="default" bsSize="xsmall">
     Default
+  </Button>
+  <Button bsStyle="info" bsSize="xsmall">
+    Info
   </Button>
   <Button bsStyle="primary" bsSize="xsmall">
     Primary
@@ -72,6 +85,9 @@ export default function Buttons() {
             <Button bsStyle="default" bsSize="large">
               Default
             </Button>
+            <Button bsStyle="info" bsSize="large">
+              Info
+            </Button>
             <Button bsStyle="primary" bsSize="large">
               Primary
             </Button>
@@ -84,6 +100,7 @@ export default function Buttons() {
         <Example title="regular" code={Samples.Regular}>
           <ButtonToolbar>
             <Button bsStyle="default">Default</Button>
+            <Button bsStyle="info">Info</Button>
             <Button bsStyle="primary">Primary</Button>
             <Button bsStyle="link">Link</Button>
           </ButtonToolbar>
@@ -93,6 +110,9 @@ export default function Buttons() {
           <ButtonToolbar>
             <Button bsStyle="default" disabled>
               Default
+            </Button>
+            <Button bsStyle="info" disabled>
+              Info
             </Button>
             <Button bsStyle="primary" disabled>
               Primary
@@ -108,6 +128,9 @@ export default function Buttons() {
             <Button bsStyle="default" bsSize="small">
               Default
             </Button>
+            <Button bsStyle="info" bsSize="small">
+              Info
+            </Button>
             <Button bsStyle="primary" bsSize="small">
               Primary
             </Button>
@@ -121,6 +144,9 @@ export default function Buttons() {
           <ButtonToolbar>
             <Button bsStyle="default" bsSize="xsmall">
               Default
+            </Button>
+            <Button bsStyle="info" bsSize="xsmall">
+              Info
             </Button>
             <Button bsStyle="primary" bsSize="xsmall">
               Primary

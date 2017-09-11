@@ -6,14 +6,14 @@
 @gray-lighter: #ffffff;
 @brand-primary: @gray-base;
 @brand-success: rgb(92, 184, 92);
-@brand-info: rgb(91, 192, 222);
+@brand-info: #00a2ff;
 @brand-warning: rgb(240, 173, 78);
 @brand-danger: rgb(217, 83, 79);
 @body-bg: rgb(255, 255, 255);
 @text-color: @gray-base;
 @link-color: @brand-primary;
-@link-hover-color: darken(@link-color, 15%);
-@link-hover-decoration: underline;
+@link-hover-color: @brand-info;
+@link-hover-decoration: none;
 @font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
   Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
   sans-serif;
@@ -93,7 +93,7 @@
 @input-border-radius: @border-radius-base;
 @input-border-radius-large: @border-radius-large;
 @input-border-radius-small: @border-radius-small;
-@input-border-focus: rgb(102, 175, 233);
+@input-border-focus: @brand-info;
 @input-color-placeholder: @gray-dark;
 @input-height-base: (
   @line-height-computed + (@padding-base-vertical * 2) + 2
@@ -124,7 +124,7 @@
 @dropdown-link-hover-color: darken(@brand-primary, 5%);
 @dropdown-link-hover-bg: lighten(@gray-light, 5%);
 @dropdown-link-active-color: @component-active-color;
-@dropdown-link-active-bg: @component-active-bg;
+@dropdown-link-active-bg: @brand-info;
 @dropdown-link-disabled-color: @gray;
 @dropdown-header-color: @gray-dark;
 @dropdown-caret-color: rgb(0, 0, 0);
@@ -245,9 +245,9 @@
 @state-success-text: rgb(60, 118, 61);
 @state-success-bg: rgb(223, 240, 216);
 @state-success-border: darken(spin(@state-success-bg, -10), 5%);
-@state-info-text: rgb(49, 112, 143);
-@state-info-bg: rgb(217, 237, 247);
-@state-info-border: darken(spin(@state-info-bg, -10), 7%);
+@state-info-text: white;
+@state-info-bg: @brand-info;
+@state-info-border: @brand-info;
 @state-warning-text: @gray-base;
 @state-warning-bg: @gray-light;
 @state-warning-border: transparent;
@@ -366,9 +366,9 @@
 @well-border: @gray-light;
 @badge-color: rgb(255, 255, 255);
 @badge-link-hover-color: rgb(255, 255, 255);
-@badge-bg: @gray-base;
-@badge-active-color: @link-color;
-@badge-active-bg: rgb(255, 255, 255);
+@badge-bg: @brand-info;
+@badge-active-color: @gray-dark;
+@badge-active-bg: @gray-light;
 @badge-font-weight: bold;
 @badge-line-height: 1;
 @badge-border-radius: 0px;

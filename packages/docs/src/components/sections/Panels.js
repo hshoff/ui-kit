@@ -26,6 +26,11 @@ export default function ExPanels() {
             Panel body text
           </Panel>
         </Example>
+        <Example title="info" code={Samples.Primary}>
+          <Panel bsStyle="info" header="Panel header">
+            Panel body text
+          </Panel>
+        </Example>
       </Col>
     </Row>
   );
