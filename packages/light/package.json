@@ -1,5 +1,5 @@
 {
-  "name": "@ui-kit/css",
+  "name": "@ui-kit/light",
   "version": "0.0.10",
   "description": "ui kit bootstrap + theme css",
   "main": "./build/styles.css",
