@@ -16,7 +16,7 @@ import "@ui-kit/css";
 ```
 
 ### component usage
-refer to react-bootstrap docs for component usage https://react-bootstrap.github.io/components.html
+refer to react-bootstrap docs for component usage https://react-bootstrap.github.io
 
 ### theme docs
 https://hshoff.github.io/ui-kit/components/
